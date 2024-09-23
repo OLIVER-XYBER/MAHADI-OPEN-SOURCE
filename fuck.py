@@ -47,7 +47,7 @@ def ____banner____():
     print(f"""  \x1b[38;5;40m▙▗▌▞▀▖▌ ▌▞▀▖▛▀▖▜▘ ▌ ▌▞▀▖▞▀▖▞▀▖▙ ▌
   \x1b[38;5;41m▌▘▌▙▄▌▙▄▌▙▄▌▌ ▌▐  ▙▄▌▙▄▌▚▄ ▙▄▌▌▌▌
   \x1b[38;5;42m▌ ▌▌ ▌▌ ▌▌ ▌▌ ▌▐  ▌ ▌▌ ▌▖ ▌▌ ▌▌▝▌
-  \x1b[38;5;43m▘ ▘▘ ▘▘ ▘▘ ▘▀▀ ▀▘ ▘ ▘▘ ▘▝▀ ▘ ▘▘ ▘{green}V{white}/{green}14
+  \x1b[38;5;43m▘ ▘▘ ▘▘ ▘▘ ▘▀▀ ▀▘ ▘ ▘▘ ▘▝▀ ▘ ▘▘ ▘{green}V{white}/{green}FUCK-U
 {white}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
  {rad}[{white}⁂{rad}] {green}DEVELOPER  {white}- {green}MAHADI HASAN AFRIDI
  {rad}[{white}⁂{rad}] {green}FACEBOOK   {white}- {green}MAHADI HASAN AFRIDI
